@@ -1,0 +1,33 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f5edfa;
+}
+.wrap {
+  width: 500px;
+  height: 500px;
+}
+.header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.game-name {
+  font-size: 64px;
+  font-weight: bold;
+  color: #676372;
+}
+.progress, .time {
+  border-radius: 10px;
+}
+.progress {
+  width: 100px;
+  height: 100px;
+  background-color: #a8a0b8;
+  .title {
+    color: #e5ddf2;
+    font-size: 14px;
+  }
+}
