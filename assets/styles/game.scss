@@ -1,0 +1,116 @@
+.game-field-wrap {
+  display: block;
+  margin: 30px auto;
+  padding: 2px;
+  background-color: #a8a0b8;
+  border-radius: 5px;
+  width: 286px;
+  height: 266px;
+  position: relative;
+
+  .block {
+    background-color: #d6cce4;
+    display: block;
+    position: absolute;
+    border-radius: 5px;
+    width: 62px;
+    height: 57px;
+    margin: 2px;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    color: #64606f;
+    padding-top: 5px;
+  }
+
+  .x1y1 {
+    left: 5px;
+    top: 5px;
+  }
+
+  .x2y1 {
+    left: 75px;
+    top: 5px;
+  }
+
+  .x3y1 {
+    left: 145px;
+    top: 5px;
+  }
+
+  .x4y1 {
+    left: 215px;
+    top: 5px;
+  }
+
+  .x1y2 {
+    left: 5px;
+    top: 70px;
+  }
+
+  .x2y2 {
+    left: 75px;
+    top: 70px;
+  }
+
+  .x3y2 {
+    left: 145px;
+    top: 70px;
+  }
+
+  .x4y2 {
+    left: 215px;
+    top: 70px;
+  }
+
+  .x1y3 {
+    left: 5px;
+    top: 135px;
+  }
+
+  .x2y3 {
+    left: 75px;
+    top: 135px;
+  }
+
+  .x3y3 {
+    left: 145px;
+    top: 135px;
+  }
+
+  .x4y3 {
+    left: 215px;
+    top: 135px;
+  }
+
+  .x1y4 {
+    left: 5px;
+    top: 200px;
+  }
+
+  .x2y4 {
+    left: 75px;
+    top: 200px;
+  }
+
+  .x3y4 {
+    left: 145px;
+    top: 200px;
+  }
+
+  .x4y4 {
+    left: 215px;
+    top: 200px;
+  }
+}
+.new-game-button {
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #a8a0b8;
+  font-size: 16px;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+}

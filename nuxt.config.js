@@ -1,7 +1,4 @@
 module.exports = {
-  /*
-  ** Headers of the page
-  */
   head: {
     title: 'black_wall',
     meta: [
@@ -12,17 +9,8 @@ module.exports = {
     link: [
     ]
   },
-  /*
-  ** Customize the progress bar color
-  */
   loading: { color: '#3B8070' },
-  /*
-  ** Build configuration
-  */
   build: {
-    /*
-    ** Run ESLint on save
-    */
     extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
